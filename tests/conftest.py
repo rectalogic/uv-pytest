@@ -1,5 +1,6 @@
 import pytest
 import pytest_httpx
+import colorama
 
 
 @pytest.fixture
