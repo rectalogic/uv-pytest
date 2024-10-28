@@ -3,6 +3,8 @@ import pytest_httpx
 import click
 import pluggy
 import pydantic
+import readline
+import openai
 
 
 @pytest.fixture
