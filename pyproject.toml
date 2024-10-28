@@ -1,0 +1,22 @@
+[project]
+name = "uv-pytest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andrew Wason", email = "rectalogic@rectalogic.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+uv-pytest = "uv_pytest:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
